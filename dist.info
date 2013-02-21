@@ -1,0 +1,56 @@
+type = "x86"
+arch = "Windows"
+author = "Steve Donovan"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "A useful Windows API subset for Lua"
+version = "1.4.2"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[lib\lua\winapi.dll]],
+}
+,
+Example = {
+[[share\winapi\example\\caption.lua]],
+[[share\winapi\example\\drives.lua]],
+[[share\winapi\example\\event.lua]],
+[[share\winapi\example\\files.lua]],
+[[share\winapi\example\\greek.txt]],
+[[share\winapi\example\\input.lua]],
+[[share\winapi\example\\message.lua]],
+[[share\winapi\example\\multiple.lua]],
+[[share\winapi\example\\pipe-server.lua]],
+[[share\winapi\example\\process-wait.lua]],
+[[share\winapi\example\\read-console.lua]],
+[[share\winapi\example\\readserial.lua]],
+[[share\winapi\example\\setenv.lua]],
+[[share\winapi\example\\slow.lua]],
+[[share\winapi\example\\start_time.lua]],
+[[share\winapi\example\\test-processes.lua]],
+[[share\winapi\example\\test-reg.lua]],
+[[share\winapi\example\\test-sleep.lua]],
+[[share\winapi\example\\test-spawn.lua]],
+[[share\winapi\example\\test-timer.lua]],
+[[share\winapi\example\\test-times.lua]],
+[[share\winapi\example\\test-uninterrupted.lua]],
+[[share\winapi\example\\test-watcher.lua]],
+[[share\winapi\example\\testshort.lua]],
+[[share\winapi\example\\testu.lua]],
+[[share\winapi\example\\thread-test.lua]],
+[[share\winapi\example\\with spaces\dir.txt]],
+[[share\winapi\example\\without_spaces\dir.txt]],
+}
+,
+Data = {
+[[share\winapi\readme.md]],
+[[share\winapi\COPYRIGHT]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "winapi"
+url = "https://www.github.com/stevedonovan/winapi"
